@@ -6,7 +6,7 @@ const LOGO = '/images/timo-marketing-logo.png';
 const DESC = 'Professional web design, monthly website plans, website care, and digital marketing services for South African businesses. Built to perform. Managed to last.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://timomarketingedge.com'),
+  metadataBase: new URL('https://timomarketing.co.za'),
   title: { default: 'Timo Marketing — Digital Growth Partner', template: '%s | Timo Marketing' },
   description: DESC,
   icons: { icon: '/favicon.png', apple: '/images/timo-marketing-logo.png' },
