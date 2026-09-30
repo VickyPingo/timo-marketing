@@ -60,7 +60,7 @@ export default function MonthlyPlans() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/3e32d504-b6af-4359-b505-44e70114d159.png"
+            src="/images/monthly-plans-hero.webp"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -255,7 +255,7 @@ export default function MonthlyPlans() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative rounded-2xl overflow-hidden border border-slate-700/50 shadow-2xl">
               <img
-                src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/a1dda14c-e79f-43f2-be09-692fd9fe05f0.png"
+                src="/images/monthly-plans-support.webp"
                 alt="Personal support"
                 className="w-full h-full object-cover"
               />
@@ -381,7 +381,7 @@ export default function MonthlyPlans() {
             <div>
               <div className="mb-4">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+                  src="/images/timo-marketing-logo.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
@@ -406,11 +406,6 @@ export default function MonthlyPlans() {
                 <li>
                   <a href="/media-marketing" className="hover:text-white transition-colors">
                     Media Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="/smart-systems" className="hover:text-white transition-colors">
-                    Smart Systems
                   </a>
                 </li>
               </ul>

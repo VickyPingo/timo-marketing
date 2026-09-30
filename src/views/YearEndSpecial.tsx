@@ -13,7 +13,7 @@ const WHATSAPP_URL =
   'https://wa.me/27690691299?text=Hi%20Vicky%2C%20I%27d%20like%20to%20claim%20a%20spot%20on%20the%20R1500%20website%20special';
 
 const LOGO =
-  'https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png';
+  '/images/timo-marketing-logo.png';
 
 const whatYouGet = [
   {
@@ -198,7 +198,7 @@ export default function YearEndSpecial() {
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=2000&q=80"
+            src="/images/special-hero.webp"
             alt=""
             className="w-full h-full object-cover opacity-20"
           />

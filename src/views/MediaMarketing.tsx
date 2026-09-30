@@ -14,7 +14,7 @@ export default function MediaMarketing() {
       <section className="relative py-32 overflow-hidden min-h-[600px] flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=2000&q=80"
+            src="/images/media-marketing-hero.webp"
             alt="Media Marketing"
             className="w-full h-full object-cover"
           />
@@ -437,7 +437,7 @@ export default function MediaMarketing() {
             <div>
               <div className="mb-4">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+                  src="/images/timo-marketing-logo.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
@@ -462,11 +462,6 @@ export default function MediaMarketing() {
                 <li>
                   <a href="/media-marketing" className="hover:text-white transition-colors">
                     Media Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="/smart-systems" className="hover:text-white transition-colors">
-                    Smart Systems
                   </a>
                 </li>
               </ul>

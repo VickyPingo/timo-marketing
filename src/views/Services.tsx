@@ -33,7 +33,7 @@ export default function Services() {
 
       {/* Main Services Grid */}
       <section className="max-w-7xl mx-auto px-6 py-24">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Web Services */}
           <Link to="/web-services" className="group">
             <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 backdrop-blur-sm border border-blue-500/20 rounded-2xl overflow-hidden hover:border-blue-500/40 hover:-translate-y-2 transition-all h-full">
@@ -114,45 +114,6 @@ export default function Services() {
             </div>
           </Link>
 
-          {/* Smart Systems */}
-          <Link to="/smart-systems" className="group">
-            <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 backdrop-blur-sm border border-cyan-500/20 rounded-2xl overflow-hidden hover:border-cyan-500/40 hover:-translate-y-2 transition-all h-full">
-              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-cyan-500/20 to-cyan-600/10">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <Cog className="w-24 h-24 text-cyan-500/40" />
-                </div>
-                <div className="absolute top-4 right-4">
-                  <div className="w-12 h-12 rounded-full bg-cyan-500/20 backdrop-blur-sm flex items-center justify-center">
-                    <ArrowRight className="w-5 h-5 text-cyan-400 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </div>
-              <div className="p-8">
-                <h3 className="text-3xl font-bold text-white mb-4">Smart Systems</h3>
-                <p className="text-slate-300 leading-relaxed mb-6">
-                  Custom SaaS solutions that automate your operations and scale with your business.
-                </p>
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
-                    <Zap className="w-5 h-5 text-cyan-500" />
-                    <span className="text-slate-300">Workflow Automation</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Users className="w-5 h-5 text-cyan-500" />
-                    <span className="text-slate-300">CRM & Client Management</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <BarChart className="w-5 h-5 text-cyan-500" />
-                    <span className="text-slate-300">Custom Dashboards</span>
-                  </div>
-                </div>
-                <div className="mt-6 text-cyan-400 font-medium inline-flex items-center gap-2">
-                  Learn More
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </div>
-            </div>
-          </Link>
         </div>
       </section>
 
@@ -328,7 +289,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <Link to="/" className="block mb-4">
-                <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png" alt="Timo Marketing" className="h-16 w-auto" />
+                <img src="/images/timo-marketing-logo.png" alt="Timo Marketing" className="h-16 w-auto" />
               </Link>
               <p className="text-slate-400 text-sm">
                 Your trusted digital growth partner in South Africa.
@@ -339,7 +300,6 @@ export default function Services() {
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><Link to="/web-services" className="hover:text-white transition-colors">Web Services</Link></li>
                 <li><Link to="/media-marketing" className="hover:text-white transition-colors">Media Marketing</Link></li>
-                <li><Link to="/smart-systems" className="hover:text-white transition-colors">Smart Systems</Link></li>
               </ul>
             </div>
             <div>

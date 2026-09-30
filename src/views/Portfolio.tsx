@@ -8,7 +8,7 @@ const WHATSAPP_URL = 'https://wa.me/27690691192';
 const projects = [
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/58653c78-cf23-4ece-be65-3591db480af6.png',
+      '/images/portfolio-just-call.webp',
     category: 'Web Services + eCommerce',
     categoryColor: 'blue',
     client: 'JC Services',
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/e7a08991-323a-4697-86bd-e311c4fd2e71.png',
+      '/images/portfolio-lovedogs.webp',
     category: 'Web Services + eCommerce',
     categoryColor: 'purple',
     client: 'LoveDogs & Company',
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/65e464e3-cc1e-42b3-a83a-1bfd42b3a44a.png',
+      '/images/portfolio-crowned-studio.webp',
     category: 'Web Services + Booking System',
     categoryColor: 'pink',
     client: 'Crowned Studio Spa',
@@ -44,7 +44,7 @@ const projects = [
   },
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/9a1c9fc3-8652-4ed8-88fb-f1a19467f22d.png',
+      '/images/portfolio-tula-tu.webp',
     category: 'Web Services',
     categoryColor: 'cyan',
     client: 'Tula Tu Aesthetics',
@@ -56,7 +56,7 @@ const projects = [
   },
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/da40846b-0841-446e-a0c3-ca07e9ee8a1b.png',
+      '/images/portfolio-cmr.webp',
     category: 'Web Services',
     categoryColor: 'green',
     client: 'CMR Limpopo',
@@ -68,7 +68,7 @@ const projects = [
   },
   {
     image:
-      'https://dtvoeevhaseb5.cloudfront.net/user-uploads/15e91b16-be8d-47cb-bc5b-41962b0e7dd3.png',
+      '/images/portfolio-pregnancy-help-network.webp',
     category: 'Web Services + Members Area',
     categoryColor: 'orange',
     client: 'Pregnancy Help Network',
@@ -137,7 +137,7 @@ export default function Portfolio() {
       <section className="relative py-32 overflow-hidden min-h-[540px] flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=80"
+            src="/images/portfolio-hero.webp"
             alt=""
             className="w-full h-full object-cover opacity-30"
           />
@@ -369,7 +369,7 @@ export default function Portfolio() {
             <div>
               <div className="mb-4">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+                  src="/images/timo-marketing-logo.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
@@ -394,11 +394,6 @@ export default function Portfolio() {
                 <li>
                   <a href="/media-marketing" className="hover:text-white transition-colors">
                     Media Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="/smart-systems" className="hover:text-white transition-colors">
-                    Smart Systems
                   </a>
                 </li>
               </ul>

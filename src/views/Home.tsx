@@ -30,7 +30,7 @@ export default function Home() {
           {/* Background Image */}
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+              src="/images/home-hero.webp"
               alt=""
               className="w-full h-full object-cover opacity-60"
             />
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all group hover-lift">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/97dee8c0-bab4-452e-bd6c-35ff3161cf9a.png"
+                  src="/images/home-web-services.webp"
                   alt="Web Development"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -230,7 +230,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all group hover-lift">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/6a1bef4a-07e0-405c-93d1-1e952c6239ea.png"
+                  src="/images/home-media-marketing.webp"
                   alt="Media Marketing"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -277,7 +277,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl overflow-hidden hover:border-cyan-500/50 transition-all group hover-lift">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/69c9d287-1ba5-4dd1-a1fe-7f77fceb75e3.png"
+                  src="/images/home-peace-of-mind.webp"
                   alt="Website Peace of Mind"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -407,7 +407,7 @@ export default function Home() {
           </div>
           <div className="relative rounded-2xl overflow-hidden border border-slate-700/50 shadow-2xl">
             <img
-              src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/c7bf054a-b38d-4653-8354-78d322241c2c.png"
+              src="/images/home-partnership.webp"
               alt="Team collaboration"
               className="w-full h-full object-cover"
             />
@@ -486,7 +486,7 @@ export default function Home() {
             <div>
               <div className="mb-4">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+                  src="/images/timo-marketing-logo.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
@@ -511,11 +511,6 @@ export default function Home() {
                 <li>
                   <Link to="/media-marketing" className="hover:text-white transition-colors">
                     Media Marketing
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/smart-systems" className="hover:text-white transition-colors">
-                    Smart Systems
                   </Link>
                 </li>
               </ul>

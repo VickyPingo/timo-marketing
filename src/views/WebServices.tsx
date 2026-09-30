@@ -50,7 +50,7 @@ export default function WebServices() {
               <div className="absolute -inset-8 bg-gradient-to-r from-blue-500/30 to-purple-500/30 blur-3xl animate-pulse"></div>
               <div className="relative rounded-2xl overflow-hidden border border-slate-700/50 shadow-2xl">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/a7fd6320-e3c5-48d8-a126-df70fa5fefb8.png"
+                  src="/images/web-services-workspace.webp"
                   alt="Web Development Workspace"
                   className="w-full h-auto"
                 />
@@ -410,7 +410,7 @@ export default function WebServices() {
             <div>
               <div className="mb-4">
                 <img
-                  src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+                  src="/images/timo-marketing-logo.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
@@ -435,11 +435,6 @@ export default function WebServices() {
                 <li>
                   <a href="/media-marketing" className="hover:text-white transition-colors">
                     Media Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="/smart-systems" className="hover:text-white transition-colors">
-                    Smart Systems
                   </a>
                 </li>
               </ul>

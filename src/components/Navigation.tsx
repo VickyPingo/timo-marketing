@@ -41,7 +41,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png"
+              src="/images/timo-marketing-logo.png"
               alt="Timo Marketing"
               className="h-16 md:h-24 w-auto"
             />

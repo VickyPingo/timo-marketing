@@ -2,14 +2,14 @@ import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import './global.css';
 
-const LOGO = 'https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png';
+const LOGO = '/images/timo-marketing-logo.png';
 const DESC = 'Professional web design, monthly website plans, website care, and digital marketing services for South African businesses. Built to perform. Managed to last.';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://timomarketingedge.com'),
   title: { default: 'Timo Marketing — Digital Growth Partner', template: '%s | Timo Marketing' },
   description: DESC,
-  icons: { icon: '/favicon.png', apple: LOGO },
+  icons: { icon: '/favicon.png', apple: '/images/timo-marketing-logo.png' },
   openGraph: {
     title: 'Timo Marketing — Digital Growth Partner',
     description: DESC,

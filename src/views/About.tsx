@@ -39,7 +39,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl"></div>
               <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-3xl p-8 overflow-hidden">
-                <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/13f3fee2-7a2a-4d84-888e-6f73531e0d60.png" alt="Professional workspace" className="w-full h-auto rounded-2xl shadow-2xl" />
+                <img src="/images/about-workspace.webp" alt="Professional workspace" className="w-full h-auto rounded-2xl shadow-2xl" />
                 <div className="absolute top-12 right-12 w-24 h-24 bg-gradient-to-br from-blue-500/30 to-purple-500/30 rounded-full blur-2xl"></div>
                 <div className="absolute bottom-12 left-12 w-32 h-32 bg-gradient-to-br from-purple-500/30 to-blue-500/30 rounded-full blur-2xl"></div>
               </div>
@@ -71,7 +71,7 @@ export default function About() {
           <div>
             {/* Profile Card */}
             <div className="flex items-center gap-4 mb-8">
-              <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/070b1315-6438-492a-854d-45bc71dcc5ef.jpg" alt="Profile" className="w-20 h-20 rounded-full object-cover border-2 border-blue-500/50 shadow-lg" />
+              <img src="/images/about-profile.webp" alt="Profile" className="w-20 h-20 rounded-full object-cover border-2 border-blue-500/50 shadow-lg" />
               <div>
                 <div className="text-white font-semibold text-lg">Your Digital Growth Partner</div>
                 <div className="text-slate-400 text-sm">20 Years of Excellence</div>
@@ -156,7 +156,7 @@ export default function About() {
           {/* Web Services */}
           <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 backdrop-blur-sm border border-blue-500/20 rounded-2xl overflow-hidden hover:border-blue-500/40 hover:-translate-y-2 transition-all group">
             <div className="relative h-48 overflow-hidden">
-              <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/93df4531-76e0-49e0-98a8-064a999eef98.png" alt="Web Services" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/images/about-web-services.webp" alt="Web Services" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent"></div>
               <div className="absolute bottom-4 left-4">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-blue-500/25 transition-all">
@@ -176,7 +176,7 @@ export default function About() {
           {/* Media Marketing */}
           <div className="bg-gradient-to-br from-purple-500/10 to-purple-600/5 backdrop-blur-sm border border-purple-500/20 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:-translate-y-2 transition-all group">
             <div className="relative h-48 overflow-hidden">
-              <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/b1c0f753-83f3-4538-a929-8f73bcd43faf.png" alt="Media Marketing" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/images/about-media-marketing.webp" alt="Media Marketing" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent"></div>
               <div className="absolute bottom-4 left-4">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-purple-500/25 transition-all">
@@ -196,7 +196,7 @@ export default function About() {
           {/* Smart Systems */}
           <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 backdrop-blur-sm border border-cyan-500/20 rounded-2xl overflow-hidden hover:border-cyan-500/40 hover:-translate-y-2 transition-all group">
             <div className="relative h-48 overflow-hidden">
-              <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/93fd2532-15a9-41de-a31e-ea0865117422.png" alt="Smart Systems" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/images/about-smart-systems.webp" alt="Smart Systems" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent"></div>
               <div className="absolute bottom-4 left-4">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-cyan-500/25 transition-all">
@@ -259,7 +259,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <Link to="/" className="block mb-4">
-                <img src="https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/d1d6cea7-ab4e-4e33-b245-890a383c16c1/803dc0f7-c4b6-45cf-aa46-2e2aa3e1d0f8.png" alt="Timo Marketing" className="h-12 w-auto" />
+                <img src="/images/timo-marketing-logo.png" alt="Timo Marketing" className="h-12 w-auto" />
               </Link>
               <p className="text-slate-400 text-sm">
                 Your trusted digital growth partner in South Africa.
@@ -271,7 +271,6 @@ export default function About() {
                 <li><Link to="/web-services" className="hover:text-white transition-colors">Web Services</Link></li>
                 <li><Link to="/monthly-plans" className="hover:text-white transition-colors">Monthly Plans</Link></li>
                 <li><Link to="/media-marketing" className="hover:text-white transition-colors">Media Marketing</Link></li>
-                <li><Link to="/smart-systems" className="hover:text-white transition-colors">Smart Systems</Link></li>
               </ul>
             </div>
             <div>
