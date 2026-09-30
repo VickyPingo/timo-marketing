@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { CheckCircle2, MessageCircle, Zap, Shield, ChevronDown } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 
-const WHATSAPP_URL = 'https://wa.me/27690691192';
+const WHATSAPP_URL = 'https://wa.me/27690691299';
 
 const faqs = [
   {

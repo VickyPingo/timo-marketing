@@ -3,7 +3,7 @@
 import { CheckCircle2, Shield, Clock, Zap } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 
-const WHATSAPP_URL = 'https://wa.me/27690691192';
+const WHATSAPP_URL = 'https://wa.me/27690691299';
 
 const silverFeatures = [
   'Monthly hosting',

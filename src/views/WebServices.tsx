@@ -3,7 +3,7 @@
 import { Shield, Zap, CheckCircle2, Users, TrendingUp, MessageCircle, Lock } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 
-const WHATSAPP_URL = 'https://wa.me/27690691192';
+const WHATSAPP_URL = 'https://wa.me/27690691299';
 
 export default function WebServices() {
   return (

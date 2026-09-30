@@ -3,7 +3,7 @@
 import { Palette, Calendar, BarChart3, Megaphone, Check } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 
-const WHATSAPP_URL = 'https://wa.me/27690691192';
+const WHATSAPP_URL = 'https://wa.me/27690691299';
 
 export default function MediaMarketing() {
   return (
