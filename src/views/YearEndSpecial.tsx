@@ -13,7 +13,7 @@ const WHATSAPP_URL =
   'https://wa.me/27690691299?text=Hi%20Vicky%2C%20I%27d%20like%20to%20claim%20a%20spot%20on%20the%20R1500%20website%20special';
 
 const LOGO =
-  '/images/timo-marketing-logo.png';
+  '/images/timo-marketing-logo-dark.png';
 
 const whatYouGet = [
   {

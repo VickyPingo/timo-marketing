@@ -39,16 +39,16 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center shrink-0">
             <img
-              src="/images/timo-marketing-logo.png"
+              src="/images/timo-marketing-logo-dark.png"
               alt="Timo Marketing"
-              className="h-16 md:h-24 w-auto"
+              className="h-16 md:h-24 lg:h-[70px] xl:h-24 w-auto max-w-none shrink-0"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6 whitespace-nowrap text-[15px] xl:text-base">
             <Link
               to="/"
               className={

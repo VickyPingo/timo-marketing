@@ -289,7 +289,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <Link to="/" className="block mb-4">
-                <img src="/images/timo-marketing-logo.png" alt="Timo Marketing" className="h-16 w-auto" />
+                <img src="/images/timo-marketing-logo-dark.png" alt="Timo Marketing" className="h-16 w-auto" />
               </Link>
               <p className="text-slate-400 text-sm">
                 Your trusted digital growth partner in South Africa.

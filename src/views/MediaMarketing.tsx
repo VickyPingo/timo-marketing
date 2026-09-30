@@ -437,7 +437,7 @@ export default function MediaMarketing() {
             <div>
               <div className="mb-4">
                 <img
-                  src="/images/timo-marketing-logo.png"
+                  src="/images/timo-marketing-logo-dark.png"
                   alt="Timo Marketing"
                   className="h-16 w-auto"
                 />
